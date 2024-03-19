@@ -1,3 +1,8 @@
+body {
+  font-family: Josefin Sans;
+  font-weight: 400;
+}
+
 .click {
   opacity: 0.4;
 }
@@ -7,6 +12,8 @@
   margin-left: auto;
   max-width: 1140px;
   ul {
+    font-family: Josefin Sans;
+    font-weight: 700;
     padding: 5px;
     list-style: none;
     margin-top: 24px;
@@ -27,9 +34,8 @@
       align-items: center;
       height: 25px;
       display: flex;
-   gap: 5px;
+      gap: 5px;
     }
-
   }
 }
 .header {
